@@ -6,6 +6,7 @@ public class Automobile extends Veicolo{
     public Automobile(String marca, String modello) {
         this.marca = marca;
         this.modello = modello;
+        this.setVelocita(0);
     }
 
     public String getMarca() {
